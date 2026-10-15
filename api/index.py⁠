@@ -2,7 +2,7 @@ import os
 from flask import Flask, request, jsonify
 import requests
 
-BOT_TOKEN = "8795865633:AAGpCgeCEWjXsfzKC78qGX-kF0ZStM47NM0"  # 填入你的真实 Token
+BOT_TOKEN = "8982119906:AAG21opgx42WFhHNIjldrcbipiZx4JNXDfI"  # 填入你的真实 Token
 TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 app = Flask(__name__)
