@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # 替换为你的新 Bot Token
-BOT_TOKEN = "你的新Token"
+BOT_TOKEN = "8982119906:AAG21opgx42WFhHNIjldrcbipiZx4JNXDfI"
 TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 @app.route('/api/webhook', methods=['POST'])
